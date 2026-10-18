@@ -1,0 +1,576 @@
+seed,stars,words,hint,prompt
+0,2,101,Came here for Sunday Brunch and unfortunately I hate to say it but I wasn't impressed,"Write a Yelp review as an ordinary customer would post it.
+- Rating: 2 out of 5 stars (match the tone to the rating).
+- Length: about 101 words, a single block of text.
+- Loosely inspired by this opening line from another review (do NOT copy it): ""Came here for Sunday Brunch and unfortunately I hate to say it but I wasn't impressed""
+Output only the review text, no title or star count."
+1,1,82,We went here for the first time last weekend,"Write a Yelp review as an ordinary customer would post it.
+- Rating: 1 out of 5 stars (match the tone to the rating).
+- Length: about 82 words, a single block of text.
+- Loosely inspired by this opening line from another review (do NOT copy it): ""We went here for the first time last weekend""
+Output only the review text, no title or star count."
+2,5,110,Fianc\u00e9 and I been here a couple of times and we absolutely loved it,"Write a Yelp review as an ordinary customer would post it.
+- Rating: 5 out of 5 stars (match the tone to the rating).
+- Length: about 110 words, a single block of text.
+- Loosely inspired by this opening line from another review (do NOT copy it): ""Fianc\u00e9 and I been here a couple of times and we absolutely loved it""
+Output only the review text, no title or star count."
+3,1,96,I came here with my husband looking to spend some serious cash,"Write a Yelp review as an ordinary customer would post it.
+- Rating: 1 out of 5 stars (match the tone to the rating).
+- Length: about 96 words, a single block of text.
+- Loosely inspired by this opening line from another review (do NOT copy it): ""I came here with my husband looking to spend some serious cash""
+Output only the review text, no title or star count."
+4,2,92,This club is the least friendly in Las Vegas,"Write a Yelp review as an ordinary customer would post it.
+- Rating: 2 out of 5 stars (match the tone to the rating).
+- Length: about 92 words, a single block of text.
+- Loosely inspired by this opening line from another review (do NOT copy it): ""This club is the least friendly in Las Vegas""
+Output only the review text, no title or star count."
+5,5,128,I cannot say enough great things about Copyfast! When it comes to award winning service and product production - they are at the top of my list,"Write a Yelp review as an ordinary customer would post it.
+- Rating: 5 out of 5 stars (match the tone to the rating).
+- Length: about 128 words, a single block of text.
+- Loosely inspired by this opening line from another review (do NOT copy it): ""I cannot say enough great things about Copyfast! When it comes to award winning service and product production - they are at the top of my list""
+Output only the review text, no title or star count."
+6,1,143,"I have been contemplating my ""cheat meal"" all week and wanted none other than Pink Box","Write a Yelp review as an ordinary customer would post it.
+- Rating: 1 out of 5 stars (match the tone to the rating).
+- Length: about 143 words, a single block of text.
+- Loosely inspired by this opening line from another review (do NOT copy it): ""I have been contemplating my ""cheat meal"" all week and wanted none other than Pink Box""
+Output only the review text, no title or star count."
+7,2,119,Finally made it out to Twin Peaks,"Write a Yelp review as an ordinary customer would post it.
+- Rating: 2 out of 5 stars (match the tone to the rating).
+- Length: about 119 words, a single block of text.
+- Loosely inspired by this opening line from another review (do NOT copy it): ""Finally made it out to Twin Peaks""
+Output only the review text, no title or star count."
+8,5,94,Went in after a shift at work and was starving,"Write a Yelp review as an ordinary customer would post it.
+- Rating: 5 out of 5 stars (match the tone to the rating).
+- Length: about 94 words, a single block of text.
+- Loosely inspired by this opening line from another review (do NOT copy it): ""Went in after a shift at work and was starving""
+Output only the review text, no title or star count."
+9,1,84,Worst buffalo ever,"Write a Yelp review as an ordinary customer would post it.
+- Rating: 1 out of 5 stars (match the tone to the rating).
+- Length: about 84 words, a single block of text.
+- Loosely inspired by this opening line from another review (do NOT copy it): ""Worst buffalo ever""
+Output only the review text, no title or star count."
+10,2,85,"Five stars for the entertainment and food, and staff","Write a Yelp review as an ordinary customer would post it.
+- Rating: 2 out of 5 stars (match the tone to the rating).
+- Length: about 85 words, a single block of text.
+- Loosely inspired by this opening line from another review (do NOT copy it): ""Five stars for the entertainment and food, and staff""
+Output only the review text, no title or star count."
+11,3,141,"We needed a convenient, relatively cheap place to eat and this was right in the Cosmopolitan Hotel (across from Marquee)","Write a Yelp review as an ordinary customer would post it.
+- Rating: 3 out of 5 stars (match the tone to the rating).
+- Length: about 141 words, a single block of text.
+- Loosely inspired by this opening line from another review (do NOT copy it): ""We needed a convenient, relatively cheap place to eat and this was right in the Cosmopolitan Hotel (across from Marquee)""
+Output only the review text, no title or star count."
+12,2,94,I didn't know that a return policy was so difficult,"Write a Yelp review as an ordinary customer would post it.
+- Rating: 2 out of 5 stars (match the tone to the rating).
+- Length: about 94 words, a single block of text.
+- Loosely inspired by this opening line from another review (do NOT copy it): ""I didn't know that a return policy was so difficult""
+Output only the review text, no title or star count."
+13,1,147,Very overpriced for the quality of the food,"Write a Yelp review as an ordinary customer would post it.
+- Rating: 1 out of 5 stars (match the tone to the rating).
+- Length: about 147 words, a single block of text.
+- Loosely inspired by this opening line from another review (do NOT copy it): ""Very overpriced for the quality of the food""
+Output only the review text, no title or star count."
+14,2,98,"The front desk girl took our name and said it would be 10 mins, she suggested we wait at the bar","Write a Yelp review as an ordinary customer would post it.
+- Rating: 2 out of 5 stars (match the tone to the rating).
+- Length: about 98 words, a single block of text.
+- Loosely inspired by this opening line from another review (do NOT copy it): ""The front desk girl took our name and said it would be 10 mins, she suggested we wait at the bar""
+Output only the review text, no title or star count."
+15,1,87,Worst sandwich ever,"Write a Yelp review as an ordinary customer would post it.
+- Rating: 1 out of 5 stars (match the tone to the rating).
+- Length: about 87 words, a single block of text.
+- Loosely inspired by this opening line from another review (do NOT copy it): ""Worst sandwich ever""
+Output only the review text, no title or star count."
+16,5,141,This is the best Italian store here in AZ!!! It is just like the ones back home in Chicago,"Write a Yelp review as an ordinary customer would post it.
+- Rating: 5 out of 5 stars (match the tone to the rating).
+- Length: about 141 words, a single block of text.
+- Loosely inspired by this opening line from another review (do NOT copy it): ""This is the best Italian store here in AZ!!! It is just like the ones back home in Chicago""
+Output only the review text, no title or star count."
+17,3,127,"When my friends and I entered Coyote Ugly in Vegas, the first thing that impressed me quite a bit was the hanging bras displayed near the right side wall facing the dance floor and some hanging on top","Write a Yelp review as an ordinary customer would post it.
+- Rating: 3 out of 5 stars (match the tone to the rating).
+- Length: about 127 words, a single block of text.
+- Loosely inspired by this opening line from another review (do NOT copy it): ""When my friends and I entered Coyote Ugly in Vegas, the first thing that impressed me quite a bit was the hanging bras displayed near the right side wall facing the dance floor and some hanging on top""
+Output only the review text, no title or star count."
+18,4,101,Went in and tried the pork rib and fatty brisket and it was pretty good,"Write a Yelp review as an ordinary customer would post it.
+- Rating: 4 out of 5 stars (match the tone to the rating).
+- Length: about 101 words, a single block of text.
+- Loosely inspired by this opening line from another review (do NOT copy it): ""Went in and tried the pork rib and fatty brisket and it was pretty good""
+Output only the review text, no title or star count."
+19,4,136,Tried this restaurant after church today and we will be going back,"Write a Yelp review as an ordinary customer would post it.
+- Rating: 4 out of 5 stars (match the tone to the rating).
+- Length: about 136 words, a single block of text.
+- Loosely inspired by this opening line from another review (do NOT copy it): ""Tried this restaurant after church today and we will be going back""
+Output only the review text, no title or star count."
+20,5,128,Broken Dagger is an excellent place to go off the strip for tattoos,"Write a Yelp review as an ordinary customer would post it.
+- Rating: 5 out of 5 stars (match the tone to the rating).
+- Length: about 128 words, a single block of text.
+- Loosely inspired by this opening line from another review (do NOT copy it): ""Broken Dagger is an excellent place to go off the strip for tattoos""
+Output only the review text, no title or star count."
+21,1,80,Where to start,"Write a Yelp review as an ordinary customer would post it.
+- Rating: 1 out of 5 stars (match the tone to the rating).
+- Length: about 80 words, a single block of text.
+- Loosely inspired by this opening line from another review (do NOT copy it): ""Where to start""
+Output only the review text, no title or star count."
+22,5,107,I was very impressed with the overall experience I had at the JW Marriott,"Write a Yelp review as an ordinary customer would post it.
+- Rating: 5 out of 5 stars (match the tone to the rating).
+- Length: about 107 words, a single block of text.
+- Loosely inspired by this opening line from another review (do NOT copy it): ""I was very impressed with the overall experience I had at the JW Marriott""
+Output only the review text, no title or star count."
+23,3,132,I have a love hate relationship with this place,"Write a Yelp review as an ordinary customer would post it.
+- Rating: 3 out of 5 stars (match the tone to the rating).
+- Length: about 132 words, a single block of text.
+- Loosely inspired by this opening line from another review (do NOT copy it): ""I have a love hate relationship with this place""
+Output only the review text, no title or star count."
+24,4,106,"When I moved to AZ about 5 years ago, this Zipps was just down the road, and one of my regular hangouts","Write a Yelp review as an ordinary customer would post it.
+- Rating: 4 out of 5 stars (match the tone to the rating).
+- Length: about 106 words, a single block of text.
+- Loosely inspired by this opening line from another review (do NOT copy it): ""When I moved to AZ about 5 years ago, this Zipps was just down the road, and one of my regular hangouts""
+Output only the review text, no title or star count."
+25,5,104,best ramen i've had,"Write a Yelp review as an ordinary customer would post it.
+- Rating: 5 out of 5 stars (match the tone to the rating).
+- Length: about 104 words, a single block of text.
+- Loosely inspired by this opening line from another review (do NOT copy it): ""best ramen i've had""
+Output only the review text, no title or star count."
+26,4,117,I've always been to the bar area and that area is amazing and delicious drinks so I give this a 4 star! But this time we bought a groupon dinner for two and I have to say I was not impressed,"Write a Yelp review as an ordinary customer would post it.
+- Rating: 4 out of 5 stars (match the tone to the rating).
+- Length: about 117 words, a single block of text.
+- Loosely inspired by this opening line from another review (do NOT copy it): ""I've always been to the bar area and that area is amazing and delicious drinks so I give this a 4 star! But this time we bought a groupon dinner for two and I have to say I was not impressed""
+Output only the review text, no title or star count."
+27,1,119,My family decided to dine here on Easter Sunday,"Write a Yelp review as an ordinary customer would post it.
+- Rating: 1 out of 5 stars (match the tone to the rating).
+- Length: about 119 words, a single block of text.
+- Loosely inspired by this opening line from another review (do NOT copy it): ""My family decided to dine here on Easter Sunday""
+Output only the review text, no title or star count."
+28,5,135,I have to give credit to my husband on this one,"Write a Yelp review as an ordinary customer would post it.
+- Rating: 5 out of 5 stars (match the tone to the rating).
+- Length: about 135 words, a single block of text.
+- Loosely inspired by this opening line from another review (do NOT copy it): ""I have to give credit to my husband on this one""
+Output only the review text, no title or star count."
+29,2,101,Found the place to be average at best,"Write a Yelp review as an ordinary customer would post it.
+- Rating: 2 out of 5 stars (match the tone to the rating).
+- Length: about 101 words, a single block of text.
+- Loosely inspired by this opening line from another review (do NOT copy it): ""Found the place to be average at best""
+Output only the review text, no title or star count."
+30,2,106,"This hotel is in a relatively good location (in the middle if the strip), and has quite the swanky design","Write a Yelp review as an ordinary customer would post it.
+- Rating: 2 out of 5 stars (match the tone to the rating).
+- Length: about 106 words, a single block of text.
+- Loosely inspired by this opening line from another review (do NOT copy it): ""This hotel is in a relatively good location (in the middle if the strip), and has quite the swanky design""
+Output only the review text, no title or star count."
+31,2,135,"Ok, lets be honest","Write a Yelp review as an ordinary customer would post it.
+- Rating: 2 out of 5 stars (match the tone to the rating).
+- Length: about 135 words, a single block of text.
+- Loosely inspired by this opening line from another review (do NOT copy it): ""Ok, lets be honest""
+Output only the review text, no title or star count."
+32,1,100,This is the most incompetent pharmacy I've ever encountered,"Write a Yelp review as an ordinary customer would post it.
+- Rating: 1 out of 5 stars (match the tone to the rating).
+- Length: about 100 words, a single block of text.
+- Loosely inspired by this opening line from another review (do NOT copy it): ""This is the most incompetent pharmacy I've ever encountered""
+Output only the review text, no title or star count."
+33,4,115,"Very loud and boisterous and bustling, and thankfully we had a reservation, but spent a great evening here! The service was fantastic, the food and drinks came out in a timely manner, and there doesn'","Write a Yelp review as an ordinary customer would post it.
+- Rating: 4 out of 5 stars (match the tone to the rating).
+- Length: about 115 words, a single block of text.
+- Loosely inspired by this opening line from another review (do NOT copy it): ""Very loud and boisterous and bustling, and thankfully we had a reservation, but spent a great evening here! The service was fantastic, the food and drinks came out in a timely manner, and there doesn'""
+Output only the review text, no title or star count."
+34,4,142,"A wee bit touristy, but a beautiful and elegant pub & restaurant steps away from a hostel on the Royal Mile","Write a Yelp review as an ordinary customer would post it.
+- Rating: 4 out of 5 stars (match the tone to the rating).
+- Length: about 142 words, a single block of text.
+- Loosely inspired by this opening line from another review (do NOT copy it): ""A wee bit touristy, but a beautiful and elegant pub & restaurant steps away from a hostel on the Royal Mile""
+Output only the review text, no title or star count."
+35,2,90,Fun place to watch the game but food isn't so impressive and it is somewhat pricey,"Write a Yelp review as an ordinary customer would post it.
+- Rating: 2 out of 5 stars (match the tone to the rating).
+- Length: about 90 words, a single block of text.
+- Loosely inspired by this opening line from another review (do NOT copy it): ""Fun place to watch the game but food isn't so impressive and it is somewhat pricey""
+Output only the review text, no title or star count."
+36,3,91,"I really want to love this place, but I can't","Write a Yelp review as an ordinary customer would post it.
+- Rating: 3 out of 5 stars (match the tone to the rating).
+- Length: about 91 words, a single block of text.
+- Loosely inspired by this opening line from another review (do NOT copy it): ""I really want to love this place, but I can't""
+Output only the review text, no title or star count."
+37,1,92,This place is a piece of shit,"Write a Yelp review as an ordinary customer would post it.
+- Rating: 1 out of 5 stars (match the tone to the rating).
+- Length: about 92 words, a single block of text.
+- Loosely inspired by this opening line from another review (do NOT copy it): ""This place is a piece of shit""
+Output only the review text, no title or star count."
+38,5,90,Wow,"Write a Yelp review as an ordinary customer would post it.
+- Rating: 5 out of 5 stars (match the tone to the rating).
+- Length: about 90 words, a single block of text.
+- Loosely inspired by this opening line from another review (do NOT copy it): ""Wow""
+Output only the review text, no title or star count."
+39,2,106,"Great place (albeit pricey) for people watching, but they suck when it comes to gluten-free options","Write a Yelp review as an ordinary customer would post it.
+- Rating: 2 out of 5 stars (match the tone to the rating).
+- Length: about 106 words, a single block of text.
+- Loosely inspired by this opening line from another review (do NOT copy it): ""Great place (albeit pricey) for people watching, but they suck when it comes to gluten-free options""
+Output only the review text, no title or star count."
+40,3,91,"This carwash gets the exterior job done nice and quickly, and I frequently come because the location is convenient","Write a Yelp review as an ordinary customer would post it.
+- Rating: 3 out of 5 stars (match the tone to the rating).
+- Length: about 91 words, a single block of text.
+- Loosely inspired by this opening line from another review (do NOT copy it): ""This carwash gets the exterior job done nice and quickly, and I frequently come because the location is convenient""
+Output only the review text, no title or star count."
+41,3,97,"The Murrayfield area of town has a small parade of shops, with the ubiquitous newsagents","Write a Yelp review as an ordinary customer would post it.
+- Rating: 3 out of 5 stars (match the tone to the rating).
+- Length: about 97 words, a single block of text.
+- Loosely inspired by this opening line from another review (do NOT copy it): ""The Murrayfield area of town has a small parade of shops, with the ubiquitous newsagents""
+Output only the review text, no title or star count."
+42,1,97,Humble Pie at Desert Ridge is GREAT! This one is much closer to my home,"Write a Yelp review as an ordinary customer would post it.
+- Rating: 1 out of 5 stars (match the tone to the rating).
+- Length: about 97 words, a single block of text.
+- Loosely inspired by this opening line from another review (do NOT copy it): ""Humble Pie at Desert Ridge is GREAT! This one is much closer to my home""
+Output only the review text, no title or star count."
+43,1,113,The doctors at Desert Family are good from my experiences with them,"Write a Yelp review as an ordinary customer would post it.
+- Rating: 1 out of 5 stars (match the tone to the rating).
+- Length: about 113 words, a single block of text.
+- Loosely inspired by this opening line from another review (do NOT copy it): ""The doctors at Desert Family are good from my experiences with them""
+Output only the review text, no title or star count."
+44,5,139,I feel like I'm jumping on the bandwagon here but why not? I never take my kids here because I like to come here to avoid kids,"Write a Yelp review as an ordinary customer would post it.
+- Rating: 5 out of 5 stars (match the tone to the rating).
+- Length: about 139 words, a single block of text.
+- Loosely inspired by this opening line from another review (do NOT copy it): ""I feel like I'm jumping on the bandwagon here but why not? I never take my kids here because I like to come here to avoid kids""
+Output only the review text, no title or star count."
+45,1,109,"I had a tire throw a tread the other day in the extreme heat, so I limped in here for a used replacement","Write a Yelp review as an ordinary customer would post it.
+- Rating: 1 out of 5 stars (match the tone to the rating).
+- Length: about 109 words, a single block of text.
+- Loosely inspired by this opening line from another review (do NOT copy it): ""I had a tire throw a tread the other day in the extreme heat, so I limped in here for a used replacement""
+Output only the review text, no title or star count."
+46,2,111,We came here for brunch,"Write a Yelp review as an ordinary customer would post it.
+- Rating: 2 out of 5 stars (match the tone to the rating).
+- Length: about 111 words, a single block of text.
+- Loosely inspired by this opening line from another review (do NOT copy it): ""We came here for brunch""
+Output only the review text, no title or star count."
+47,2,120,Went here with a big group and were seated right away,"Write a Yelp review as an ordinary customer would post it.
+- Rating: 2 out of 5 stars (match the tone to the rating).
+- Length: about 120 words, a single block of text.
+- Loosely inspired by this opening line from another review (do NOT copy it): ""Went here with a big group and were seated right away""
+Output only the review text, no title or star count."
+48,4,87,The Cooper's Tavern has become a signature spot I recommend to Madison visitors and natives alike,"Write a Yelp review as an ordinary customer would post it.
+- Rating: 4 out of 5 stars (match the tone to the rating).
+- Length: about 87 words, a single block of text.
+- Loosely inspired by this opening line from another review (do NOT copy it): ""The Cooper's Tavern has become a signature spot I recommend to Madison visitors and natives alike""
+Output only the review text, no title or star count."
+49,2,86,Well the food is good and you get a lot if you can actually get them to bring it to you and forget about refills or if you'd like more than a thimble of syrup good luck,"Write a Yelp review as an ordinary customer would post it.
+- Rating: 2 out of 5 stars (match the tone to the rating).
+- Length: about 86 words, a single block of text.
+- Loosely inspired by this opening line from another review (do NOT copy it): ""Well the food is good and you get a lot if you can actually get them to bring it to you and forget about refills or if you'd like more than a thimble of syrup good luck""
+Output only the review text, no title or star count."
+50,3,91,We tried curry on murray last week and were sadly disappointed,"Write a Yelp review as an ordinary customer would post it.
+- Rating: 3 out of 5 stars (match the tone to the rating).
+- Length: about 91 words, a single block of text.
+- Loosely inspired by this opening line from another review (do NOT copy it): ""We tried curry on murray last week and were sadly disappointed""
+Output only the review text, no title or star count."
+51,5,125,"The food, the ambience, and the service is amazing! We had been here once before, but we sat at a booth, so we felt like a second experience was needed before I wrote a review because we wanted to try","Write a Yelp review as an ordinary customer would post it.
+- Rating: 5 out of 5 stars (match the tone to the rating).
+- Length: about 125 words, a single block of text.
+- Loosely inspired by this opening line from another review (do NOT copy it): ""The food, the ambience, and the service is amazing! We had been here once before, but we sat at a booth, so we felt like a second experience was needed before I wrote a review because we wanted to try""
+Output only the review text, no title or star count."
+52,4,120,"Awesome service! Our waiter was fun, efficient and he had great recommendations when we asked","Write a Yelp review as an ordinary customer would post it.
+- Rating: 4 out of 5 stars (match the tone to the rating).
+- Length: about 120 words, a single block of text.
+- Loosely inspired by this opening line from another review (do NOT copy it): ""Awesome service! Our waiter was fun, efficient and he had great recommendations when we asked""
+Output only the review text, no title or star count."
+53,1,93,"My negative experience with Sharona Optical and their apparently affiliated Horizon Eye Specialists & LASIK Center has been too long and involved to recount without boring a reader to tears, but the b","Write a Yelp review as an ordinary customer would post it.
+- Rating: 1 out of 5 stars (match the tone to the rating).
+- Length: about 93 words, a single block of text.
+- Loosely inspired by this opening line from another review (do NOT copy it): ""My negative experience with Sharona Optical and their apparently affiliated Horizon Eye Specialists & LASIK Center has been too long and involved to recount without boring a reader to tears, but the b""
+Output only the review text, no title or star count."
+54,1,133,Apparently we went at a bad time,"Write a Yelp review as an ordinary customer would post it.
+- Rating: 1 out of 5 stars (match the tone to the rating).
+- Length: about 133 words, a single block of text.
+- Loosely inspired by this opening line from another review (do NOT copy it): ""Apparently we went at a bad time""
+Output only the review text, no title or star count."
+55,3,129,"I wouldn't go out of my way to come here again, but the tiny White Castle-esque burgers have good flavor","Write a Yelp review as an ordinary customer would post it.
+- Rating: 3 out of 5 stars (match the tone to the rating).
+- Length: about 129 words, a single block of text.
+- Loosely inspired by this opening line from another review (do NOT copy it): ""I wouldn't go out of my way to come here again, but the tiny White Castle-esque burgers have good flavor""
+Output only the review text, no title or star count."
+56,4,142,"After spending the morning protesting up on the square, my friends and I trooped down State street looking for food so we could continue protesting","Write a Yelp review as an ordinary customer would post it.
+- Rating: 4 out of 5 stars (match the tone to the rating).
+- Length: about 142 words, a single block of text.
+- Loosely inspired by this opening line from another review (do NOT copy it): ""After spending the morning protesting up on the square, my friends and I trooped down State street looking for food so we could continue protesting""
+Output only the review text, no title or star count."
+57,1,149,Resort??? I don't think so,"Write a Yelp review as an ordinary customer would post it.
+- Rating: 1 out of 5 stars (match the tone to the rating).
+- Length: about 149 words, a single block of text.
+- Loosely inspired by this opening line from another review (do NOT copy it): ""Resort??? I don't think so""
+Output only the review text, no title or star count."
+58,1,139,"I purchased a Groupon Coupon, called and made an appointment","Write a Yelp review as an ordinary customer would post it.
+- Rating: 1 out of 5 stars (match the tone to the rating).
+- Length: about 139 words, a single block of text.
+- Loosely inspired by this opening line from another review (do NOT copy it): ""I purchased a Groupon Coupon, called and made an appointment""
+Output only the review text, no title or star count."
+59,4,137,I've gone here a few times for waxes and they've always been very thorough and far less painful than other waxing experiences I've had,"Write a Yelp review as an ordinary customer would post it.
+- Rating: 4 out of 5 stars (match the tone to the rating).
+- Length: about 137 words, a single block of text.
+- Loosely inspired by this opening line from another review (do NOT copy it): ""I've gone here a few times for waxes and they've always been very thorough and far less painful than other waxing experiences I've had""
+Output only the review text, no title or star count."
+60,3,124,Stopped by this Subway on the drive back home to Vegas from Phoenix,"Write a Yelp review as an ordinary customer would post it.
+- Rating: 3 out of 5 stars (match the tone to the rating).
+- Length: about 124 words, a single block of text.
+- Loosely inspired by this opening line from another review (do NOT copy it): ""Stopped by this Subway on the drive back home to Vegas from Phoenix""
+Output only the review text, no title or star count."
+61,5,90,Yen has amazing sushi,"Write a Yelp review as an ordinary customer would post it.
+- Rating: 5 out of 5 stars (match the tone to the rating).
+- Length: about 90 words, a single block of text.
+- Loosely inspired by this opening line from another review (do NOT copy it): ""Yen has amazing sushi""
+Output only the review text, no title or star count."
+62,4,125,"So, let me say ","Write a Yelp review as an ordinary customer would post it.
+- Rating: 4 out of 5 stars (match the tone to the rating).
+- Length: about 125 words, a single block of text.
+- Loosely inspired by this opening line from another review (do NOT copy it): ""So, let me say ""
+Output only the review text, no title or star count."
+63,3,146,My review on this place is a bit mixed,"Write a Yelp review as an ordinary customer would post it.
+- Rating: 3 out of 5 stars (match the tone to the rating).
+- Length: about 146 words, a single block of text.
+- Loosely inspired by this opening line from another review (do NOT copy it): ""My review on this place is a bit mixed""
+Output only the review text, no title or star count."
+64,4,89,I'm super white and went here on Latin night,"Write a Yelp review as an ordinary customer would post it.
+- Rating: 4 out of 5 stars (match the tone to the rating).
+- Length: about 89 words, a single block of text.
+- Loosely inspired by this opening line from another review (do NOT copy it): ""I'm super white and went here on Latin night""
+Output only the review text, no title or star count."
+65,5,104,We have been to Nosh several times for both dinner and brunch and are never disappointed,"Write a Yelp review as an ordinary customer would post it.
+- Rating: 5 out of 5 stars (match the tone to the rating).
+- Length: about 104 words, a single block of text.
+- Loosely inspired by this opening line from another review (do NOT copy it): ""We have been to Nosh several times for both dinner and brunch and are never disappointed""
+Output only the review text, no title or star count."
+66,3,136,"Over the past few years, they've remodeled and repositioned this property to target more of the younger crowd","Write a Yelp review as an ordinary customer would post it.
+- Rating: 3 out of 5 stars (match the tone to the rating).
+- Length: about 136 words, a single block of text.
+- Loosely inspired by this opening line from another review (do NOT copy it): ""Over the past few years, they've remodeled and repositioned this property to target more of the younger crowd""
+Output only the review text, no title or star count."
+67,2,110,"Another comp dinner and this time I was sober enough to remember that indeed, we did not eat that much","Write a Yelp review as an ordinary customer would post it.
+- Rating: 2 out of 5 stars (match the tone to the rating).
+- Length: about 110 words, a single block of text.
+- Loosely inspired by this opening line from another review (do NOT copy it): ""Another comp dinner and this time I was sober enough to remember that indeed, we did not eat that much""
+Output only the review text, no title or star count."
+68,4,115,This is a great spot for a date night,"Write a Yelp review as an ordinary customer would post it.
+- Rating: 4 out of 5 stars (match the tone to the rating).
+- Length: about 115 words, a single block of text.
+- Loosely inspired by this opening line from another review (do NOT copy it): ""This is a great spot for a date night""
+Output only the review text, no title or star count."
+69,4,89,This is the first review from my first visit at the Newest Picazzo's in the West Valley,"Write a Yelp review as an ordinary customer would post it.
+- Rating: 4 out of 5 stars (match the tone to the rating).
+- Length: about 89 words, a single block of text.
+- Loosely inspired by this opening line from another review (do NOT copy it): ""This is the first review from my first visit at the Newest Picazzo's in the West Valley""
+Output only the review text, no title or star count."
+70,5,105,"I recently had a ""cupcake cake"" made here for my son's 4th birthday","Write a Yelp review as an ordinary customer would post it.
+- Rating: 5 out of 5 stars (match the tone to the rating).
+- Length: about 105 words, a single block of text.
+- Loosely inspired by this opening line from another review (do NOT copy it): ""I recently had a ""cupcake cake"" made here for my son's 4th birthday""
+Output only the review text, no title or star count."
+71,1,144,I would Never coming back here ever!!!! Make a appointment with my regular tech,"Write a Yelp review as an ordinary customer would post it.
+- Rating: 1 out of 5 stars (match the tone to the rating).
+- Length: about 144 words, a single block of text.
+- Loosely inspired by this opening line from another review (do NOT copy it): ""I would Never coming back here ever!!!! Make a appointment with my regular tech""
+Output only the review text, no title or star count."
+72,4,93,"I must be a snob when it comes to bakeries, because I wasn't as blown away as I thought I would be","Write a Yelp review as an ordinary customer would post it.
+- Rating: 4 out of 5 stars (match the tone to the rating).
+- Length: about 93 words, a single block of text.
+- Loosely inspired by this opening line from another review (do NOT copy it): ""I must be a snob when it comes to bakeries, because I wasn't as blown away as I thought I would be""
+Output only the review text, no title or star count."
+73,2,114,The only reason why i give a 2 star is because the girl that took my order was very friendly and so helpful,"Write a Yelp review as an ordinary customer would post it.
+- Rating: 2 out of 5 stars (match the tone to the rating).
+- Length: about 114 words, a single block of text.
+- Loosely inspired by this opening line from another review (do NOT copy it): ""The only reason why i give a 2 star is because the girl that took my order was very friendly and so helpful""
+Output only the review text, no title or star count."
+74,1,112,"The service was pathetic, We were there for two hours and only received a few dishes that we ordered","Write a Yelp review as an ordinary customer would post it.
+- Rating: 1 out of 5 stars (match the tone to the rating).
+- Length: about 112 words, a single block of text.
+- Loosely inspired by this opening line from another review (do NOT copy it): ""The service was pathetic, We were there for two hours and only received a few dishes that we ordered""
+Output only the review text, no title or star count."
+75,3,148,Get there around 10:30 and you get the best of both worlds-- the end of breakfast and transition into lunch,"Write a Yelp review as an ordinary customer would post it.
+- Rating: 3 out of 5 stars (match the tone to the rating).
+- Length: about 148 words, a single block of text.
+- Loosely inspired by this opening line from another review (do NOT copy it): ""Get there around 10:30 and you get the best of both worlds-- the end of breakfast and transition into lunch""
+Output only the review text, no title or star count."
+76,1,123,I wanted to try their menu for the first time at the Cabarrus County Food Truck Friday,"Write a Yelp review as an ordinary customer would post it.
+- Rating: 1 out of 5 stars (match the tone to the rating).
+- Length: about 123 words, a single block of text.
+- Loosely inspired by this opening line from another review (do NOT copy it): ""I wanted to try their menu for the first time at the Cabarrus County Food Truck Friday""
+Output only the review text, no title or star count."
+77,3,85,The crepes here were a bit odd,"Write a Yelp review as an ordinary customer would post it.
+- Rating: 3 out of 5 stars (match the tone to the rating).
+- Length: about 85 words, a single block of text.
+- Loosely inspired by this opening line from another review (do NOT copy it): ""The crepes here were a bit odd""
+Output only the review text, no title or star count."
+78,5,112,How on earth have I not reviewed this gem! Do not be fooled by outward appearances,"Write a Yelp review as an ordinary customer would post it.
+- Rating: 5 out of 5 stars (match the tone to the rating).
+- Length: about 112 words, a single block of text.
+- Loosely inspired by this opening line from another review (do NOT copy it): ""How on earth have I not reviewed this gem! Do not be fooled by outward appearances""
+Output only the review text, no title or star count."
+79,1,149,"Oh, Come Back Inn","Write a Yelp review as an ordinary customer would post it.
+- Rating: 1 out of 5 stars (match the tone to the rating).
+- Length: about 149 words, a single block of text.
+- Loosely inspired by this opening line from another review (do NOT copy it): ""Oh, Come Back Inn""
+Output only the review text, no title or star count."
+80,5,133,I set up a mystery date night for my son and daughter-in-law,"Write a Yelp review as an ordinary customer would post it.
+- Rating: 5 out of 5 stars (match the tone to the rating).
+- Length: about 133 words, a single block of text.
+- Loosely inspired by this opening line from another review (do NOT copy it): ""I set up a mystery date night for my son and daughter-in-law""
+Output only the review text, no title or star count."
+81,2,81,"As someone from the Philly area, driving by had me pretty excited","Write a Yelp review as an ordinary customer would post it.
+- Rating: 2 out of 5 stars (match the tone to the rating).
+- Length: about 81 words, a single block of text.
+- Loosely inspired by this opening line from another review (do NOT copy it): ""As someone from the Philly area, driving by had me pretty excited""
+Output only the review text, no title or star count."
+82,4,121,So far I have been here 3 times with the hubby,"Write a Yelp review as an ordinary customer would post it.
+- Rating: 4 out of 5 stars (match the tone to the rating).
+- Length: about 121 words, a single block of text.
+- Loosely inspired by this opening line from another review (do NOT copy it): ""So far I have been here 3 times with the hubby""
+Output only the review text, no title or star count."
+83,3,129,"I've always been a fan of this place because it's just about the only place to get ramen in the valley, and their ramen is pretty tasty","Write a Yelp review as an ordinary customer would post it.
+- Rating: 3 out of 5 stars (match the tone to the rating).
+- Length: about 129 words, a single block of text.
+- Loosely inspired by this opening line from another review (do NOT copy it): ""I've always been a fan of this place because it's just about the only place to get ramen in the valley, and their ramen is pretty tasty""
+Output only the review text, no title or star count."
+84,4,120,"I've been eating at this restaurant for a while now, and I've never had a bad experience or a bad dish","Write a Yelp review as an ordinary customer would post it.
+- Rating: 4 out of 5 stars (match the tone to the rating).
+- Length: about 120 words, a single block of text.
+- Loosely inspired by this opening line from another review (do NOT copy it): ""I've been eating at this restaurant for a while now, and I've never had a bad experience or a bad dish""
+Output only the review text, no title or star count."
+85,5,82,I visited Hana with friends on my recent visit to Phoenix,"Write a Yelp review as an ordinary customer would post it.
+- Rating: 5 out of 5 stars (match the tone to the rating).
+- Length: about 82 words, a single block of text.
+- Loosely inspired by this opening line from another review (do NOT copy it): ""I visited Hana with friends on my recent visit to Phoenix""
+Output only the review text, no title or star count."
+86,2,129,"I'm not usually one to pay double to have my oil done in fifteen minutes, but a couple times, like before a road trip i would have no choice","Write a Yelp review as an ordinary customer would post it.
+- Rating: 2 out of 5 stars (match the tone to the rating).
+- Length: about 129 words, a single block of text.
+- Loosely inspired by this opening line from another review (do NOT copy it): ""I'm not usually one to pay double to have my oil done in fifteen minutes, but a couple times, like before a road trip i would have no choice""
+Output only the review text, no title or star count."
+87,3,118,Crapplebee's,"Write a Yelp review as an ordinary customer would post it.
+- Rating: 3 out of 5 stars (match the tone to the rating).
+- Length: about 118 words, a single block of text.
+- Loosely inspired by this opening line from another review (do NOT copy it): ""Crapplebee's""
+Output only the review text, no title or star count."
+88,2,131,Hot pot ( oriental version of fondue) is more for social gathering than good food,"Write a Yelp review as an ordinary customer would post it.
+- Rating: 2 out of 5 stars (match the tone to the rating).
+- Length: about 131 words, a single block of text.
+- Loosely inspired by this opening line from another review (do NOT copy it): ""Hot pot ( oriental version of fondue) is more for social gathering than good food""
+Output only the review text, no title or star count."
+89,5,110,"If I could give this spot 100 stars, I would","Write a Yelp review as an ordinary customer would post it.
+- Rating: 5 out of 5 stars (match the tone to the rating).
+- Length: about 110 words, a single block of text.
+- Loosely inspired by this opening line from another review (do NOT copy it): ""If I could give this spot 100 stars, I would""
+Output only the review text, no title or star count."
+90,1,98,"HORRIBLE! I WAS a customer of this place for several years, until new management took over within the last couple years","Write a Yelp review as an ordinary customer would post it.
+- Rating: 1 out of 5 stars (match the tone to the rating).
+- Length: about 98 words, a single block of text.
+- Loosely inspired by this opening line from another review (do NOT copy it): ""HORRIBLE! I WAS a customer of this place for several years, until new management took over within the last couple years""
+Output only the review text, no title or star count."
+91,5,135,Lex was awesome,"Write a Yelp review as an ordinary customer would post it.
+- Rating: 5 out of 5 stars (match the tone to the rating).
+- Length: about 135 words, a single block of text.
+- Loosely inspired by this opening line from another review (do NOT copy it): ""Lex was awesome""
+Output only the review text, no title or star count."
+92,5,118,"You will have to pay a lot to hang here, but if you are in Scottsdale, definitely one of the top places to stay! The pool is great, and the constant ice water, great food service is great","Write a Yelp review as an ordinary customer would post it.
+- Rating: 5 out of 5 stars (match the tone to the rating).
+- Length: about 118 words, a single block of text.
+- Loosely inspired by this opening line from another review (do NOT copy it): ""You will have to pay a lot to hang here, but if you are in Scottsdale, definitely one of the top places to stay! The pool is great, and the constant ice water, great food service is great""
+Output only the review text, no title or star count."
+93,3,82,This is your prototypical Hawaiian BBQ joint,"Write a Yelp review as an ordinary customer would post it.
+- Rating: 3 out of 5 stars (match the tone to the rating).
+- Length: about 82 words, a single block of text.
+- Loosely inspired by this opening line from another review (do NOT copy it): ""This is your prototypical Hawaiian BBQ joint""
+Output only the review text, no title or star count."
+94,4,95,Our large group walked from Planet Hollywood to here,"Write a Yelp review as an ordinary customer would post it.
+- Rating: 4 out of 5 stars (match the tone to the rating).
+- Length: about 95 words, a single block of text.
+- Loosely inspired by this opening line from another review (do NOT copy it): ""Our large group walked from Planet Hollywood to here""
+Output only the review text, no title or star count."
+95,3,123,"Sometimes I'm just in the mood for some cheap, filling, hole in the wall Chinese food","Write a Yelp review as an ordinary customer would post it.
+- Rating: 3 out of 5 stars (match the tone to the rating).
+- Length: about 123 words, a single block of text.
+- Loosely inspired by this opening line from another review (do NOT copy it): ""Sometimes I'm just in the mood for some cheap, filling, hole in the wall Chinese food""
+Output only the review text, no title or star count."
+96,2,140,"Over My lowly review is unlikely to have any effect on the patronage of this over-hyped, over-crowded and over-priced tourist trap","Write a Yelp review as an ordinary customer would post it.
+- Rating: 2 out of 5 stars (match the tone to the rating).
+- Length: about 140 words, a single block of text.
+- Loosely inspired by this opening line from another review (do NOT copy it): ""Over My lowly review is unlikely to have any effect on the patronage of this over-hyped, over-crowded and over-priced tourist trap""
+Output only the review text, no title or star count."
+97,3,149,"This was ok, not great and not terrible","Write a Yelp review as an ordinary customer would post it.
+- Rating: 3 out of 5 stars (match the tone to the rating).
+- Length: about 149 words, a single block of text.
+- Loosely inspired by this opening line from another review (do NOT copy it): ""This was ok, not great and not terrible""
+Output only the review text, no title or star count."
+98,5,114,This place usually serves restaurants and depanneurs but anyone can go in; no membership required and the selection and quality are better than any crummy Costco,"Write a Yelp review as an ordinary customer would post it.
+- Rating: 5 out of 5 stars (match the tone to the rating).
+- Length: about 114 words, a single block of text.
+- Loosely inspired by this opening line from another review (do NOT copy it): ""This place usually serves restaurants and depanneurs but anyone can go in; no membership required and the selection and quality are better than any crummy Costco""
+Output only the review text, no title or star count."
+99,5,85,"i spoked with JOE, very professional and knowledgeable i needed some tires and wheel alignment, but i also thought i needed a new battery because of starting issues, they checked and tested the batter","Write a Yelp review as an ordinary customer would post it.
+- Rating: 5 out of 5 stars (match the tone to the rating).
+- Length: about 85 words, a single block of text.
+- Loosely inspired by this opening line from another review (do NOT copy it): ""i spoked with JOE, very professional and knowledgeable i needed some tires and wheel alignment, but i also thought i needed a new battery because of starting issues, they checked and tested the batter""
+Output only the review text, no title or star count."
+100,5,92,I'm not a car girl and Lester couldn't have been more accommodating,"Write a Yelp review as an ordinary customer would post it.
+- Rating: 5 out of 5 stars (match the tone to the rating).
+- Length: about 92 words, a single block of text.
+- Loosely inspired by this opening line from another review (do NOT copy it): ""I'm not a car girl and Lester couldn't have been more accommodating""
+Output only the review text, no title or star count."
+101,2,87,"Pass on this place, there are better restaurants mere feet away","Write a Yelp review as an ordinary customer would post it.
+- Rating: 2 out of 5 stars (match the tone to the rating).
+- Length: about 87 words, a single block of text.
+- Loosely inspired by this opening line from another review (do NOT copy it): ""Pass on this place, there are better restaurants mere feet away""
+Output only the review text, no title or star count."
+102,3,111,The mainstay driving my 2-star rating is the fact that they had NO water in any of their vending machines or at the food counter,"Write a Yelp review as an ordinary customer would post it.
+- Rating: 3 out of 5 stars (match the tone to the rating).
+- Length: about 111 words, a single block of text.
+- Loosely inspired by this opening line from another review (do NOT copy it): ""The mainstay driving my 2-star rating is the fact that they had NO water in any of their vending machines or at the food counter""
+Output only the review text, no title or star count."
+103,1,116,"I gave this place a 2 nd chance and never should have!! Since the raid, you can expect at least an hr wait! Horribly slow! They did a bad job on the inside as I watched them vacuum from the inside of ","Write a Yelp review as an ordinary customer would post it.
+- Rating: 1 out of 5 stars (match the tone to the rating).
+- Length: about 116 words, a single block of text.
+- Loosely inspired by this opening line from another review (do NOT copy it): ""I gave this place a 2 nd chance and never should have!! Since the raid, you can expect at least an hr wait! Horribly slow! They did a bad job on the inside as I watched them vacuum from the inside of ""
+Output only the review text, no title or star count."
+104,4,112,This place has everything,"Write a Yelp review as an ordinary customer would post it.
+- Rating: 4 out of 5 stars (match the tone to the rating).
+- Length: about 112 words, a single block of text.
+- Loosely inspired by this opening line from another review (do NOT copy it): ""This place has everything""
+Output only the review text, no title or star count."
+105,2,99,Stay away from the surf and turf! Unless your ok with the surf portion being one shrimp and a tiny scallop,"Write a Yelp review as an ordinary customer would post it.
+- Rating: 2 out of 5 stars (match the tone to the rating).
+- Length: about 99 words, a single block of text.
+- Loosely inspired by this opening line from another review (do NOT copy it): ""Stay away from the surf and turf! Unless your ok with the surf portion being one shrimp and a tiny scallop""
+Output only the review text, no title or star count."
+106,3,137,I can''t get over the process it took to get my food ordered,"Write a Yelp review as an ordinary customer would post it.
+- Rating: 3 out of 5 stars (match the tone to the rating).
+- Length: about 137 words, a single block of text.
+- Loosely inspired by this opening line from another review (do NOT copy it): ""I can''t get over the process it took to get my food ordered""
+Output only the review text, no title or star count."
+107,5,123,I joined Mountainside when they opened and fell in love with this gym,"Write a Yelp review as an ordinary customer would post it.
+- Rating: 5 out of 5 stars (match the tone to the rating).
+- Length: about 123 words, a single block of text.
+- Loosely inspired by this opening line from another review (do NOT copy it): ""I joined Mountainside when they opened and fell in love with this gym""
+Output only the review text, no title or star count."
+108,3,104,"For such a thin pizza, it's really overpriced","Write a Yelp review as an ordinary customer would post it.
+- Rating: 3 out of 5 stars (match the tone to the rating).
+- Length: about 104 words, a single block of text.
+- Loosely inspired by this opening line from another review (do NOT copy it): ""For such a thin pizza, it's really overpriced""
+Output only the review text, no title or star count."
+109,1,144,They dropped off menus at my company and I thought it looked yummy,"Write a Yelp review as an ordinary customer would post it.
+- Rating: 1 out of 5 stars (match the tone to the rating).
+- Length: about 144 words, a single block of text.
+- Loosely inspired by this opening line from another review (do NOT copy it): ""They dropped off menus at my company and I thought it looked yummy""
+Output only the review text, no title or star count."
+110,1,85,"I tried Chinese foods here and they really suck!! BBQ meats not fresh, I had stomach problem after had all you can eat BBQ at this place","Write a Yelp review as an ordinary customer would post it.
+- Rating: 1 out of 5 stars (match the tone to the rating).
+- Length: about 85 words, a single block of text.
+- Loosely inspired by this opening line from another review (do NOT copy it): ""I tried Chinese foods here and they really suck!! BBQ meats not fresh, I had stomach problem after had all you can eat BBQ at this place""
+Output only the review text, no title or star count."
+111,2,92,"Seriously had to meet the driver at Brillobox, because it was the closest he ""was allowed"" to get to Larimer/East Liberty","Write a Yelp review as an ordinary customer would post it.
+- Rating: 2 out of 5 stars (match the tone to the rating).
+- Length: about 92 words, a single block of text.
+- Loosely inspired by this opening line from another review (do NOT copy it): ""Seriously had to meet the driver at Brillobox, because it was the closest he ""was allowed"" to get to Larimer/East Liberty""
+Output only the review text, no title or star count."
+112,3,86,Beautiful restaurant and very good service but the menu is too small and the food wasn't that great,"Write a Yelp review as an ordinary customer would post it.
+- Rating: 3 out of 5 stars (match the tone to the rating).
+- Length: about 86 words, a single block of text.
+- Loosely inspired by this opening line from another review (do NOT copy it): ""Beautiful restaurant and very good service but the menu is too small and the food wasn't that great""
+Output only the review text, no title or star count."
+113,1,134,Nice decor doesn't compensate for poor service and horrible hygiene,"Write a Yelp review as an ordinary customer would post it.
+- Rating: 1 out of 5 stars (match the tone to the rating).
+- Length: about 134 words, a single block of text.
+- Loosely inspired by this opening line from another review (do NOT copy it): ""Nice decor doesn't compensate for poor service and horrible hygiene""
+Output only the review text, no title or star count."
+114,2,98,The staff is friendly but both times I've gone to this location the cashier who also happens to be the manager got my order wrong somehow,"Write a Yelp review as an ordinary customer would post it.
+- Rating: 2 out of 5 stars (match the tone to the rating).
+- Length: about 98 words, a single block of text.
+- Loosely inspired by this opening line from another review (do NOT copy it): ""The staff is friendly but both times I've gone to this location the cashier who also happens to be the manager got my order wrong somehow""
+Output only the review text, no title or star count."

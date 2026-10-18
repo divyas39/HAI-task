@@ -1,0 +1,34 @@
+id,error_pattern,reason_misstates_text
+16,Glowing positive human review read as AI,1
+31,Glowing positive human review read as AI,1
+32,Glowing positive human review read as AI,1
+63,Glowing positive human review read as AI,1
+75,Glowing positive human review read as AI,1
+30,Glowing positive human review read as AI,1
+51,Glowing positive human review read as AI,1
+18,Glowing positive human review read as AI,0
+90,Glowing positive human review read as AI,1
+43,Glowing positive human review read as AI,0
+56,Glowing positive human review read as AI,1
+26,Glowing positive human review read as AI,1
+27,Glowing positive human review read as AI,1
+6,Glowing positive human review read as AI,0
+66,Glowing positive human review read as AI,0
+77,Balanced mixed human review read as tidy AI structure,0
+67,Balanced mixed human review read as tidy AI structure,0
+40,Human review with list-like format (pros/cons; per-item ratings),1
+14,Human review with list-like format (pros/cons; per-item ratings),1
+47,Non-English human review,0
+49,Clean-prose human complaint read as AI,1
+124,"AI rant with punchy, abrupt ending read as human",0
+130,"AI rant with punchy, abrupt ending read as human",0
+160,"AI rant with punchy, abrupt ending read as human",0
+121,"AI rant with punchy, abrupt ending read as human",0
+168,"AI rant with punchy, abrupt ending read as human",0
+164,"AI rant with punchy, abrupt ending read as human",0
+186,"AI rant with punchy, abrupt ending read as human",0
+182,AI review with personal backstory framing read as human,0
+179,AI review with personal backstory framing read as human,0
+196,AI review with personal backstory framing read as human,0
+141,AI review with personal backstory framing read as human,0
+158,AI review with personal backstory framing read as human,0
