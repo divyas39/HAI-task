@@ -73,12 +73,12 @@ with A.app.test_client() as c:
     c.post("/quiz", data={"answer": A.QUIZ_OPTIONS[1]})
     assert q("SELECT quiz_attempts FROM sessions WHERE participant_id='pq'") == [(2,)]
 
-    # baseline: 10 balanced reviews + 1 check, the check never first or last
+    # baseline: 7 reviews (4/3 split) + 1 check, the check never first or last
     ids, sid = begin(c, "p1", "baseline")
     assert len(ids) == A.N_TRIALS + 1 and ids.count(A.CHECK_ID) == 1
     assert ids[0] != A.CHECK_ID and ids[-1] != A.CHECK_ID
     real = [A.REVIEWS[i]["ground_truth"] for i in ids if i != A.CHECK_ID]
-    assert real.count("Human") == real.count("AI") == A.N_TRIALS // 2
+    assert len(real) == A.N_TRIALS and abs(real.count("Human") - real.count("AI")) <= 1
     assert b"influence" not in c.get("/trial").data          # no AI questions in baseline
 
     # incomplete or stale answers write nothing

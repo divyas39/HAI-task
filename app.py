@@ -15,7 +15,7 @@ from datetime import datetime, timezone
 
 from flask import Flask, abort, redirect, render_template, request, session, url_for
 
-N_TRIALS = 10                    # 5 Human + 5 AI; ~8 min in the AI condition incl. instructions
+N_TRIALS = 7                     # + 1 hidden check = 8 cards; ~6 min assisted incl. instructions
 CONDITIONS = {"baseline": "AI-unassisted", "ai": "AI-assisted"}
 LABELS = ["Human", "AI"]
 CHECK_ID = -1
@@ -162,7 +162,10 @@ def start():
         return render_template("join.html", conditions=CONDITIONS, c=cond,
                                error="Please enter a participant ID and choose your study version."), 400
     by_label = {g: [i for i, r in REVIEWS.items() if r["ground_truth"] == g] for g in LABELS}
-    ids = [i for g in LABELS for i in random.sample(by_label[g], N_TRIALS // 2)]
+    # As balanced as an odd N allows: a coin flip decides which class gets the extra review.
+    extra = random.choice(LABELS)
+    ids = [i for g in LABELS
+           for i in random.sample(by_label[g], N_TRIALS // 2 + (g == extra) * (N_TRIALS % 2))]
     random.shuffle(ids)
     ids.insert(random.randint(2, len(ids) - 2), CHECK_ID)   # never first or last
     session.clear()

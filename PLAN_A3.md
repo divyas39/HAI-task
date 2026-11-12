@@ -29,9 +29,9 @@ We reuse the design, format and code from A1 (`../../Assignment1/Code`):
   - AI condition only: a 1–5 scale (buttons, so no pre-set value biases it) asking how much the AI hint influenced the final answer.
 
 ## Study parameters
-- **N = 10 trials** per participant (`N_TRIALS` constant), sampled at random from the 200 and balanced at 5 Human + 5 AI, so a participant can't infer a base rate from their own set.
+- **N = 7 trials** per participant (`N_TRIALS` constant), plus the hidden check = 8 cards (reduced from 10 + 1 because sessions ran too long). They are sampled at random from the 200, split 4/3 between Human and AI, with a coin flip deciding which class gets 4.
   - Timing: reviews run 80–150 words, about 30 s each in baseline and about 45 s in the AI condition (two steps).
-  - With about 1.5 min of instructions, the AI condition finishes in about 9 min.
+  - With about 1.5 min of instructions, the AI condition finishes in about 6 min.
 - **Attention checks** (lenient, as the assignment allows):
   1. **Comprehension question before the trials:** "What will you decide for each review?" with 3 options. A wrong answer sends the participant back to the instructions to read them again. They can retry; it doesn't end the session.
   2. **In-task check at a random position:** a hand-written review of normal length, with stars and the same card and layout as a real trial. It is not labelled as a check.
@@ -39,7 +39,7 @@ We reuse the design, format and code from A1 (`../../Assignment1/Code`):
      - The participant passes if their final answer on that card is Human-written with confidence 1.
      - In the AI condition the reveal shows a fixed hint (Human, 60%) instead of calling Gemini, so the hint never contradicts the instruction.
      - Failing it ends the session (marked `terminated`), and the participant has to start over.
-     - It counts toward the progress bar like any other trial (11 cards shown).
+     - It counts toward the progress bar like any other trial (8 cards shown).
 
 ## Implementation (new files at the HAI-task repo root, A2 files untouched except one path fix)
 - **`app.py`**, adapted from A1 `app.py`:

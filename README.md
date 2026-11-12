@@ -81,7 +81,7 @@ The flow follows Assignment 1:
 1. Instructions page, with one real example of each class taken from spare pool reviews outside the study set.
 2. Participant ID and version choice. Students pick the version they were given in class. Share `/?c=baseline` (AI-unassisted) or `/?c=ai` (AI-assisted): the link opens the instructions and pre-selects the version on the next page. A `/join?c=...` link also works; it redirects to the instructions first. The unassisted group's instructions never mention the detector.
 3. A one-question comprehension check.
-4. Eleven review cards, one per page, with a progress bar.
+4. Eight review cards (7 real reviews and the hidden check), one per page, with a progress bar.
 5. A thank-you page.
 
 ```bash
@@ -91,8 +91,8 @@ python test_app.py     # self-check, prints "ok" (no API key needed)
 ```
 
 ### Trials
-- Each participant gets **10 reviews** sampled at random from `data/study.csv`: 5 human-written and 5 AI-written, in shuffled order. Participants therefore see different trials, and nobody can work out a different base rate from their own set.
-- At about 30 s per review in the AI-unassisted version and 45 s in the AI-assisted one (two steps), plus 1–2 min of instructions, the study takes under 10 minutes.
+- Each participant gets **7 reviews** sampled at random from `data/study.csv`, split 4/3 between human-written and AI-written (a coin flip decides which side gets 4), in shuffled order. Participants therefore see different trials, and nobody's set is far from the 50/50 mix the instructions describe.
+- At about 30 s per review in the AI-unassisted version and 45 s in the AI-assisted one (two steps), plus 1–2 min of instructions, the study takes about 5–7 minutes.
 
 ### AI assistance (AI-assisted version)
 The participant locks in a first guess. The detector's opinion is then revealed:
