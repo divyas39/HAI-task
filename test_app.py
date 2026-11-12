@@ -48,7 +48,16 @@ def step(c, i, check_ok=True, ai=False):
 A.app.config["TESTING"] = True
 with A.app.test_client() as c:
     assert b"Start the study" in c.get("/").data
-    assert b"Version B" in c.get("/join?c=ai").data
+    # a shared /join link still shows the instructions first, then pre-selects the version
+    with A.app.test_client() as fresh:
+        r = fresh.get("/join?c=ai")
+        assert r.status_code == 302 and r.headers["Location"].endswith("/?c=ai")
+        page = fresh.get("/?c=ai").data
+        assert b"How the AI help works" in page and b"/join?c=ai" in page
+        assert b'value="ai" required\n           checked' in fresh.get("/join").data
+    with A.app.test_client() as fresh:     # the unassisted group never reads about the detector
+        assert b"detector" not in fresh.get("/?c=baseline").data
+    assert b"AI-assisted" in c.get("/join").data
 
     # bad join is rejected and nothing starts
     assert c.post("/start", data={"participant_id": " ", "condition": "ai"}).status_code == 400

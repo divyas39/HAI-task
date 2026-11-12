@@ -16,7 +16,7 @@ from datetime import datetime, timezone
 from flask import Flask, abort, redirect, render_template, request, session, url_for
 
 N_TRIALS = 10                    # 5 Human + 5 AI; ~8 min in the AI condition incl. instructions
-CONDITIONS = {"baseline": "Version A", "ai": "Version B"}
+CONDITIONS = {"baseline": "AI-unassisted", "ai": "AI-assisted"}
 LABELS = ["Human", "AI"]
 CHECK_ID = -1
 LIVE_GAP = 4.0                   # seconds between live Gemini calls: free tier allows 15/min
@@ -138,14 +138,20 @@ def scale(name):
 
 @app.route("/")
 def index():
-    return render_template("index.html", n=N_TRIALS + 1, examples=EXAMPLES,
-                           c=request.args.get("c"), retry="retry" in request.args,
-                           in_progress="sid" in session)
+    if request.args.get("c") in CONDITIONS:
+        session["c"] = request.args["c"]
+    session["read"] = True
+    return render_template("index.html", n=N_TRIALS + 1, examples=EXAMPLES, c=session.get("c"),
+                           retry="retry" in request.args, in_progress="sid" in session)
 
 
 @app.route("/join")
 def join():
-    return render_template("join.html", conditions=CONDITIONS, c=request.args.get("c"))
+    # A shared /join?c=... link still goes through the instructions first.
+    if not session.get("read"):
+        return redirect(url_for("index", c=request.args.get("c")))
+    c = request.args.get("c") if request.args.get("c") in CONDITIONS else session.get("c")
+    return render_template("join.html", conditions=CONDITIONS, c=c)
 
 
 @app.route("/start", methods=["POST"])
@@ -154,7 +160,7 @@ def start():
     cond = request.form.get("condition")
     if not pid or cond not in CONDITIONS:
         return render_template("join.html", conditions=CONDITIONS, c=cond,
-                               error="Please enter a participant ID and choose your version."), 400
+                               error="Please enter a participant ID and choose your study version."), 400
     by_label = {g: [i for i, r in REVIEWS.items() if r["ground_truth"] == g] for g in LABELS}
     ids = [i for g in LABELS for i in random.sample(by_label[g], N_TRIALS // 2)]
     random.shuffle(ids)

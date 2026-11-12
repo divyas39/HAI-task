@@ -101,8 +101,10 @@ It should print a verdict. If it fails, the study still runs on the stored A2 ou
 
 ## Checks after deploying
 1. Open the URL **on your phone**, not just the laptop, and complete both versions.
+   Links for participants: `https://<username>.pythonanywhere.com/?c=baseline` (AI-unassisted)
+   and `https://<username>.pythonanywhere.com/?c=ai` (AI-assisted). Both open the instructions first.
 2. `curl "https://<username>.pythonanywhere.com/export?token=<token>"` — your answers are there,
-   and in Version B most rows have `ai_source` = `live`.
+   and in AI-assisted rows most have `ai_source` = `live`.
 3. Hit **Reload**, run check 2 again. The row must survive. This is the whole reason for
    choosing this host.
 4. `curl -o /dev/null -w "%{http_code}\n" "https://<username>.pythonanywhere.com/export"` — must

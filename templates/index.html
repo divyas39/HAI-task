@@ -6,7 +6,7 @@
   <h1>Human or AI?</h1>
   <p class="lede">A short study on telling real online reviews apart from reviews written by an
   AI language model. AI text has become good enough that this is genuinely hard, and we want to
-  know how well people do it, with and without help from an automatic detector.</p>
+  know how well people do it.</p>
 </div></div>
 {% endblock %}
 
@@ -25,7 +25,8 @@
   review in full before answering — the details matter.</p>
 </div>
 
-<h2>If you are doing Version B</h2>
+{% if c != "baseline" %}
+<h2>{{ "How the AI help works" if c == "ai" else "If you are in the AI-assisted version" }}</h2>
 <div class="card">
   <p>After you make a first guess, an AI detector gives its opinion: its answer, how confident it
   is, and a one-line reason. You then give your final answer, which can agree or disagree with
@@ -33,6 +34,7 @@
   <p>The detector is often right but it does make mistakes, and its reasons are sometimes
   wrong about the text. Treat it as a second opinion, not the answer.</p>
 </div>
+{% endif %}
 
 <h2>One example of each</h2>
 {% for r, label in examples %}

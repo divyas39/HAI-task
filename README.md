@@ -74,12 +74,12 @@ To regenerate the model outputs from scratch (needs `GEMINI_API_KEY`, ~17 min on
 
 ## Assignment 3: study interface
 A Flask web app (`app.py`, `templates/`) runs the 200 study trials with participants under two conditions.
-- **Version A (baseline):** no AI help.
-- **Version B (AI-assisted):** after a first guess, the participant sees the Gemini detector from A2. It is called live; this is the synchronous option.
+- **AI-unassisted (`baseline`):** no AI help.
+- **AI-assisted (`ai`):** after a first guess, the participant sees the Gemini detector from A2. It is called live; this is the synchronous option.
 
 The flow follows Assignment 1:
 1. Instructions page, with one real example of each class taken from spare pool reviews outside the study set.
-2. Participant ID and version choice. Students pick the version they were given in class; the links `/join?c=baseline` and `/join?c=ai` pre-select it.
+2. Participant ID and version choice. Students pick the version they were given in class. Share `/?c=baseline` (AI-unassisted) or `/?c=ai` (AI-assisted): the link opens the instructions and pre-selects the version on the next page. A `/join?c=...` link also works; it redirects to the instructions first. The unassisted group's instructions never mention the detector.
 3. A one-question comprehension check.
 4. Eleven review cards, one per page, with a progress bar.
 5. A thank-you page.
@@ -92,9 +92,9 @@ python test_app.py     # self-check, prints "ok" (no API key needed)
 
 ### Trials
 - Each participant gets **10 reviews** sampled at random from `data/study.csv`: 5 human-written and 5 AI-written, in shuffled order. Participants therefore see different trials, and nobody can work out a different base rate from their own set.
-- At about 30 s per review in Version A and 45 s in Version B (two steps), plus 1–2 min of instructions, the study takes under 10 minutes.
+- At about 30 s per review in the AI-unassisted version and 45 s in the AI-assisted one (two steps), plus 1–2 min of instructions, the study takes under 10 minutes.
 
-### AI assistance (Version B)
+### AI assistance (AI-assisted version)
 The participant locks in a first guess. The detector's opinion is then revealed:
 - its label;
 - its confidence, as a number and a bar;
@@ -112,23 +112,23 @@ Every hint shown is logged with its source and latency.
 ### Extra measurements and why they matter
 | Measure | Where | Why |
 |---|---|---|
-| Time per review (`time_total_ms`, plus `time_to_guess_ms` in B) | both | Efficiency: does the hint save time, or cost extra time spent weighing it? |
+| Time per review (`time_total_ms`, plus `time_to_guess_ms` when assisted) | both | Efficiency: does the hint save time, or cost extra time spent weighing it? |
 | Confidence 1–5 on the final answer | both | Calibration: does AI help make people more confident without making them more accurate (over-reliance)? |
-| Influence of the hint, 1–5 | B only | Self-reported reliance, compared with the actual behaviour (how often `initial_answer != final_answer`, and whether switches follow the AI when it is wrong). |
+| Influence of the hint, 1–5 | AI-assisted only | Self-reported reliance, compared with the actual behaviour (how often `initial_answer != final_answer`, and whether switches follow the AI when it is wrong). |
 
 The scales are 1–5 buttons instead of a slider, so a pre-set slider position can't bias the answer.
 
 ### Attention checks
 1. **Comprehension question** before the reviews ("what will you be deciding?"). A wrong answer sends the participant back to the instructions to retry. The number of attempts is recorded in `sessions.quiz_attempts`.
 2. **Hidden check review** at a random position, never first or last. It looks like any other review, but a sentence in the middle asks the reader to choose *Written by a person* with confidence *1*. Anything else ends the session (`status = terminated`) and the participant has to start over.
-   - In Version B it shows a fixed hint that agrees with the instruction, so the hint never contradicts it.
+   - In the AI-assisted version it shows a fixed hint that agrees with the instruction, so the hint never contradicts it.
    - It is stored with `review_id = -1` and `ground_truth = CHECK`.
 
 ### Data collected
 `study.db` (SQLite) has two tables. Each answer is written as soon as it is given.
 - **`responses`** has one row per review card:
   - `session_id, participant_id, condition, trial_index, review_id, stars, ground_truth`;
-  - `initial_answer` (B only), `final_answer`, `correct`, `confidence`;
+  - `initial_answer` (AI-assisted only), `final_answer`, `correct`, `confidence`;
   - the hint shown: `ai_label, ai_confidence, ai_reason, ai_source` (`live` / `cache` / `fixed`), `ai_latency_ms`;
   - `ai_influence, time_to_guess_ms, time_total_ms, created_at`.
 - **`sessions`** has one row per attempt: `session_id, participant_id, condition, started_at, finished_at, status` (`started` / `completed` / `terminated` / `withdrawn`) and `quiz_attempts`.

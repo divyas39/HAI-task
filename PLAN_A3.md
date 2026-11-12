@@ -21,7 +21,7 @@ We reuse the design, format and code from A1 (`../../Assignment1/Code`):
 
 ## Decisions (from the user)
 - **AI mode:** live Gemini `detect()` call, falling back to the stored A2 output for that review when the call errors or is rate-limited. Every shown output is logged with `ai_source = live | cache`.
-- **Condition assignment:** students pick their condition in class. The join page has a required condition choice (Version A = baseline, Version B = AI-assisted), and `/join?c=baseline|ai` pre-selects it so either link can be shared.
+- **Condition assignment:** students pick their condition in class. The join page has a required condition choice (AI-unassisted = baseline, AI-assisted = ai). The shared link `/?c=baseline|ai` opens the instructions and pre-selects the version; `/join?c=...` redirects to the instructions first. The unassisted instructions never mention the detector.
 - **AI workflow:** guess first, then reveal. The participant makes an initial guess, then sees the AI label, its confidence % and its reason, then gives a final answer.
 - **Measures:**
   - time per trial, logged automatically;
@@ -64,7 +64,7 @@ We reuse the design, format and code from A1 (`../../Assignment1/Code`):
     - The attention-check row is stored as `review_id = -1`, so analysis can drop it.
   - **Exports:** `/export?token=…&table=responses|sessions` returns CSV.
 - **`templates/`**: copy A1's `base.html`, `join.html` and `done.html`, retitled and with the emotion colours swapped for Human/AI colours.
-  - `index.html`: new instruction text. It explains the task, the 50/50 mix, a few cues (not the full detector prompt), and that "AI hints can be wrong" for Version B. It includes 2 hand-written examples, as in A1, so they never appear in the study set.
+  - `index.html`: new instruction text. It explains the task, the 50/50 mix, a few cues (not the full detector prompt), and that "AI hints can be wrong" for the AI-assisted version. It includes 2 hand-written examples, as in A1, so they never appear in the study set.
   - `quiz.html`: new.
   - `trial.html`: review card with the stars, two big Human / AI buttons and the 1–5 confidence scale. In the AI condition, after the guess it shows the initial guess (locked), then an AI panel (label, a confidence bar, the reason), then the final-answer buttons and the 1–5 influence scale. The progress bar is reused from A1.
 - **`run_model.py`:** a one-line fix so `_examples()` reads `data/pool.csv` and `data/study.csv` relative to the file, not the cwd. Without it the app would crash under the PythonAnywhere WSGI loader.
