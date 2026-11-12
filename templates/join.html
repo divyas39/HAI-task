@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% block content %}
+<a class="back" href="{{ url_for('index', c=c) }}">&larr; Back to the instructions</a>
+<h1>Before you begin</h1>
+<p class="lede">Two details and you're in.</p>
+
+<div class="card">
+  <h2 style="margin-top:0">Your data</h2>
+  <p class="hint" style="margin:0">Your answers are stored against the ID you choose below and
+  used only for research analysis. Please pick a made-up ID rather than your real name. You can
+  stop at any point using the <em>withdraw and exit</em> link; a study you don't finish is not
+  used in the analysis.</p>
+</div>
+
+<form method="post" action="{{ url_for('start') }}" class="card">
+  <label class="field" for="pid">Participant ID</label>
+  <input type="text" id="pid" name="participant_id" required autocomplete="off"
+         autofocus placeholder="e.g. bluejay42">
+  <p class="hint" style="margin:.5rem 0 1.2rem">Anything memorable and not your name.</p>
+
+  <p class="field">Which version were you given?</p>
+  <div class="options">
+    {% for key, name in conditions.items() %}
+    <label class="opt"><input type="radio" name="condition" value="{{ key }}" required
+           {% if c == key %}checked{% endif %}> {{ name }}</label>
+    {% endfor %}
+  </div>
+  <div class="row">
+    <button type="submit">Continue</button>
+  </div>
+</form>
+{% endblock %}

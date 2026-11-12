@@ -6,6 +6,7 @@ Run as a script to label every trial in data/study.csv, or pass a review to try 
 """
 import json
 import os
+import pathlib
 import threading
 import time
 import sys
@@ -18,7 +19,9 @@ from google import genai
 from google.genai import types
 from pydantic import BaseModel
 
-load_dotenv()
+# Paths resolve against this file, not the cwd: the A3 web app imports this from a WSGI server.
+HERE = pathlib.Path(__file__).resolve().parent
+load_dotenv(HERE / ".env")
 # Gemini, so the detector never judges text from its own model family (the AI reviews are Claude's).
 DETECTOR = os.getenv("DETECTOR_MODEL", "gemini-3.5-flash-lite")
 # reads GEMINI_API_KEY; retries 429s so free-tier rate limits just slow the run down
@@ -49,7 +52,7 @@ Labelled examples (not part of the study set):
 
 def _examples():
     # Spare reviews from the pool that are not in the study set.
-    pool, study = pd.read_csv("data/pool.csv"), pd.read_csv("data/study.csv")
+    pool, study = pd.read_csv(HERE / "data/pool.csv"), pd.read_csv(HERE / "data/study.csv")
     spare = pool[~pool.id.isin(study.id)]
     picked = pd.concat([spare[spare.ground_truth == g].head(2) for g in ("Human", "AI")])
     return "\n\n".join(f"[{r.ground_truth}] {r.text}" for r in picked.itertuples())

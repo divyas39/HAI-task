@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>One quick question</h1>
+<p class="lede">Just to check the instructions were clear.</p>
+<form method="post" class="card">
+  <p class="field">For each review, what will you be deciding?</p>
+  <div class="options" style="grid-template-columns:1fr">
+    {% for o in options %}
+    <label class="opt"><input type="radio" name="answer" value="{{ o }}" required> {{ o }}</label>
+    {% endfor %}
+  </div>
+  <div class="row"><button type="submit">Start the reviews</button></div>
+</form>
+{% endblock %}
+{% block footer %}<a href="{{ url_for('withdraw') }}">Withdraw and exit</a>{% endblock %}

@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>This session has ended</h1>
+<p class="lede">One of the reviews contained an instruction that wasn't followed, so this
+attempt can't be used.</p>
+<div class="card">
+  <p>That's fine — it happens when reading quickly. Please start again from the instructions and
+  read each review in full.</p>
+  <div class="row"><a class="btn" href="{{ url_for('index') }}">Start over</a></div>
+</div>
+{% endblock %}
